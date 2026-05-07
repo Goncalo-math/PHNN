@@ -95,44 +95,6 @@ $$\mathcal{L}(x, x^\ast) = \frac{1}{N} \sum_{k=1}^{N} \left| x_k - x^{*}_k \righ
 
 ---
 
-## Repository Structure
-
-```
-phnn/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-│
-├── src/
-│   ├── models/
-│   │   └── phnn.py              # PHNN model definition
-│   ├── integrators/
-│   │   ├── euler.py             # Explicit Euler integrator
-│   │   └── phi.py               # Poisson-Hamiltonian Integrator
-│   ├── systems/
-│   │   ├── pendulum.py          # Ideal pendulum
-│   │   ├── lotka_volterra_2d.py # Lotka-Volterra 2D
-│   │   ├── lotka_volterra_3d.py # Lotka-Volterra 3D
-│   │   └── rigid_body.py        # Rigid body rotation
-│   ├── training/
-│   │   └── train.py             # Training loop
-│   └── utils/
-│       ├── data.py              # Trajectory generation, noise
-│       └── plotting.py          # Visualization utilities
-│
-├── experiments/
-│   ├── run_vector_field.py      # Section 4.1 experiments
-│   └── run_integrators.py       # Section 4.2 experiments (EE-EE, EE-PHI, PHI-EE, PHI-PHI)
-│
-├── notebooks/
-│   └── results_visualization.ipynb
-│
-└── paper/
-    └── phnn_paper.pdf
-```
-
----
 
 ## Installation
 
@@ -144,10 +106,12 @@ pip install -r requirements.txt
 
 **Requirements** (suggested):
 ```
-torch
-numpy
-scipy
-matplotlib
+autograd>=1.6.2
+numpy>=1.24.0
+scipy>=1.11.0
+torch>=2.0.0
+matplotlib>=3.7.0
+
 ```
 
 ---
