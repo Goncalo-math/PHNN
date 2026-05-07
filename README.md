@@ -99,7 +99,7 @@ $$\mathcal{L}(x, x^\ast) = \frac{1}{N} \sum_{k=1}^{N} \left| x_k - x^{*}_k \righ
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/phnn.git
+git clone https://github.com/Goncalo-math/PHNN.git
 cd phnn
 pip install -r requirements.txt
 ```
