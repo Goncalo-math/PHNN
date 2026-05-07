@@ -70,7 +70,7 @@ $$\mathcal{L}(x, \dot{x}) = \frac{1}{N} \sum_{k=1}^{N} \left\| \dot{x}_k - \Pi(x
 
 **When using an integrator (single-step prediction):**
 
-$$\mathcal{L}(x, x^*) = \frac{1}{N} \sum_{k=1}^{N} \left\| x_k - x^*_k \right\|^2$$
+$$\mathcal{L}(x, x^\ast) = \frac{1}{N} \sum_{k=1}^{N} \left| x_k - x^{*}_k \right|^2$$
 
 ---
 
