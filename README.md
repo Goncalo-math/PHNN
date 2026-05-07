@@ -116,30 +116,25 @@ matplotlib>=3.7.0
 
 ---
 
-## Usage
-
-**Train on Lotka-Volterra 2D with EE-PHI strategy:**
-```bash
-python experiments/run_integrators.py --system lv2d --train euler --test phi
-```
-
-**Reproduce vector field training results (Section 4.1):**
-```bash
-python experiments/run_vector_field.py --system pendulum
-```
-
----
-
 ## Citation
 
 If you use this code in your research, please cite:
 
 ```bibtex
-@inproceedings{araujo2025phnn,
-  title     = {Poisson Hamiltonian Neural Networks: Structure-Preserving Learning of Dynamical Systems},
-  author    = {Araújo, Adérito and Oliveira, Gonçalo Inocêncio and Mestre, João Nuno},
-  year      = {2025},
-  institution = {CMUC, University of Coimbra}
+@InProceedings{araujo2025phnn,
+author="Ara{\'u}jo, Ad{\'e}rito
+and Oliveira, Gon{\c{c}}alo Inoc{\^e}ncio
+and Mestre, Jo{\~a}o Nuno",
+editor="Rojas, Ignacio
+and Joya, Gonzalo
+and Catala, Andreu",
+title="Poisson Hamiltonian Neural Networks: Structure-Preserving Learning of Dynamical Systems",
+booktitle="Advances in Computational Intelligence",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="205--218",
+isbn="978-3-032-02728-3"
 }
 ```
 
